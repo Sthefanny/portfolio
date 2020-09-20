@@ -7,7 +7,7 @@ import 'package:portfolio/app/modules/home/home_module.dart';
 class AppModule extends MainModule {
   @override
   List<Bind> get binds => [
-        Bind((i) => AppController),
+        Bind((i) => AppController()),
       ];
 
   @override

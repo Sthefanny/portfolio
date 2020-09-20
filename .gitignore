@@ -412,3 +412,5 @@ fabric.properties
 android/.idea/
 
 .idea/
+
+.fvm/*
