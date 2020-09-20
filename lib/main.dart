@@ -9,6 +9,7 @@ void main() => runApp(
         supportedLocales: [Locale('pt', 'BR'), Locale('en', 'US')],
         path: 'assets/translations',
         fallbackLocale: Locale('pt', 'BR'),
+        startLocale: Locale('pt', 'BR'),
         child: ModularApp(module: AppModule()),
       ),
     );
