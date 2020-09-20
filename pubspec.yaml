@@ -9,6 +9,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  carousel_slider: ^2.2.1
   url_launcher: ^5.6.0
   font_awesome_flutter: ^8.8.1
   easy_localization: ^2.3.3
@@ -48,5 +49,5 @@ vars:
     runner: flutter pub run build_runner
 scripts: 
     build: $runner build
-    watch: $clean & $get & $runner watch
+    watch: $clean & $get & $runner watch --delete-conflicting-outputs
     build_clean: $clean & $get & $runner build --delete-conflicting-outputs

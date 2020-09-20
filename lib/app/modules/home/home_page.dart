@@ -3,6 +3,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 import '../../shared/configs/colors_config.dart';
 import 'home_controller.dart';
+import 'widgets/home_body.dart';
 import 'widgets/home_top.dart';
 
 class HomePage extends StatefulWidget {
@@ -31,9 +32,10 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
             colors: [ColorsConfig().darkPurple, ColorsConfig().lightPurple],
           ),
         ),
-        child: Column(
+        child: ListView(
           children: <Widget>[
-            HomeTop(),
+            HomeTop(parentContext: context),
+            HomeBody(),
           ],
         ),
       ),

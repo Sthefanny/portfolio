@@ -1,4 +1,17 @@
 {
     "name": "Sthefanny Gonzaga",
-    "jobTitle": "Desenvolvedora Flutter"
+    "jobTitle": "Desenvolvedora Flutter",
+    "aboutMeTitle": "Sobre",
+    "aboutMeDescription": "Sou uma desenvolvedora full stack com conhecimento em algumas linguagens de front-end e back-end, frameworks responsivos e melhores práticas de códigos. Atualmente, meu foco principal é o desenvolvimento com Flutter, já estou trabalhando com essa tecnologia desde Jul/2019.",
+    "myWorksTitle": "Meus trabalhos",
+    "talksTitle": "Palestras",
+    "autoCeabsDescription": "É um aplicativo para controlar seu veículo o tempo todo.\n\n Com ele é possível:\n- Visualizar em tempo real onde está seu veículo;\n- Traçar rota entre seu celular e o veículo (ideal para quem vive esquecendo onde estacionou);\n- Visualizar dados estatísticos de uso do veículo, como km rodado na semana, fim de semana, horário comercial, fora do horário comercial entre outros.\n- Criar uma cerca virtual onde está estacionado seu veículo. Caso ele saia da cerca você será avisado em tempo real (ideal para quem deixa o carro estacionado em vias públicas ou em valet parking).\n\n\nFoi o primeiro aplicativo que fiz. Já existia o Auto Ceabs feito em linguagens nativas, e tive a oportunidade de poder refazê-lo utilizando Flutter. Sem conhecimento nenhum, pude estudar e colocar o aplicativo no ar, na época a nota das lojas subiu de 1.1 para 3.7.",
+    "finderCeabsDescription": "É um aplicativo para rede de pronta resposta da CEABS SERVIÇOS atuar de forma mais radia em casos de ocorrências.\n\nEmpregamos todo o conhecimento em monitoramento de bens moveis para criar um aplicativo moderno e intuitivo para ajudar a recuperar o seu bem.\n\nCom ele nossa equipe de pronta respostas pode:\n- Aceitar ocorrências;\n- Informar QTH e QTA;\n- Tirar fotos da ocorrência;\n- Entrar em contato com nossa central de atendimento via chat.",
+    "larAppDescription": "A LAR.app é a administradora de condomínios que leva a transparência e agilidade para os condomínios. Com menos burocracia, disponibilizamos a visualização das contas, boletos e histórico de pagamentos de sua unidade, assim como a interação com nossa equipe de atendimento em tempo real.\n\nCombinamos o melhor da administração digital, utilizando a tecnologia para otimizar e tornar os processos mais rápidos com um atendimento humanizado e personalizado.\n\nEm nosso aplicativo, você pode:\n- Selecionar sua unidade ou unidades, caso tenha mais de um imóvel no mesmo condomínio ou em outros condomínios que administramos;\n- Visualizar as cobranças (boletos) com o código de barras disponível para cópia e efetuar os pagamentos em seu aplicativo do banco;\n- Conversar em tempo real com nossos atendentes para realizar solicitações ou tirar dúvidas;\n- Visualizar os chamados em aberto.\n\nAtravés do aplicativo para condôminos da LAR.app, você pode visualizar as informações do seu lar em tempo real; com acesso fácil aos boletos e notificações, você contribui com a saúde financeira do seu condomínio! Além disso, nossa equipe está pronta para responder qualquer dúvida!",
+    "arduinoDescription": "Foi um projeto feito em live juntamento com meu marido, onde ele fez a parte do arduíno, criando uma api. Eu fiz um aplicativo em Flutter para consumir essa API e pode ligar e apagar luzes RGB.",
+    "pokedexDescription": "Foi um projeto feito em live fazendo uma Pokedex, que é uma lista de Pokémon.",
+    "patienceTitle": "Jogo Paciência",
+    "patienceDescription": "Foi um projeto feito em live do jogo de cartas chamado paciência. Foi utilizado uma API pública. Ainda está em desenvolvimento.",
+    "close": "Fechar",
+    "goToProject": "Ir para o Projeto"
 }

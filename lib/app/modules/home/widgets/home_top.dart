@@ -10,6 +10,10 @@ import '../../../shared/utils/language_utils.dart';
 import '../../../shared/utils/url_launcher_utlis.dart';
 
 class HomeTop extends StatefulWidget {
+  final BuildContext parentContext;
+
+  const HomeTop({Key key, @required this.parentContext}) : super(key: key);
+
   @override
   _HomeTopState createState() => _HomeTopState();
 }
@@ -46,7 +50,7 @@ class _HomeTopState extends State<HomeTop> {
           child: Center(child: Text(text, style: TextStyle(color: Colors.black))),
         ),
       ),
-      onTap: () => LanguageUtils.changeLanguage(context: context, languageEnum: language),
+      onTap: () => LanguageUtils.changeLanguage(context: widget.parentContext, languageEnum: language),
     );
   }
 
@@ -66,7 +70,7 @@ class _HomeTopState extends State<HomeTop> {
       backgroundColor: Colors.white,
       child: CircleAvatar(
         radius: 77,
-        backgroundImage: AssetImage('assets/images/eu_square_menor.jpg'),
+        backgroundImage: AssetImage('assets/images/eu.jpg'),
       ),
     );
   }
